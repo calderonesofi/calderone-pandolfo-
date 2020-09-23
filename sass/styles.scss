@@ -22,9 +22,9 @@ img{max-width: 40%;}.coleccion{border-left:$borderVerde ;text-align:center;h2{fo
 /*somos*/
 .containerSomos{border-bottom: $borderVerde;
 .conSomos{padding:0%; margin:0%;.somosIm{max-width:100%;}}
-.somos{@extend .proyecto; padding:0% 6%; align-self: center; line-height: 2.8rem; h1{font-size: 3rem;}}}
-.conEllas{padding-top: 5%;.imEllas{max-width: 90%;}.texEllas{padding-left: 0%; text-align: left; color:$verdeOscuro;  
-    h2{font-size: 2.5rem;padding-bottom: 5%;}p{font-size: 2rem;line-height: 2.2rem;}}
+.somos{@extend .proyecto; padding:0% 6%; align-self: center; line-height: 35px;text-align:justify; h1{font-size: 3rem;}}}
+.conEllas{padding-top: 5%;.imEllas{max-width: 90%;}.texEllas{ text-align: left; color:$verdeOscuro;  
+    h2{font-size: 2.7rem;padding-bottom: 5%;}p{font-size: 2.4rem;line-height: 3.5rem;}}
 .luli{border-right: $borderVerde;}}
 
 /*footer*/
