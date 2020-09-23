@@ -28,10 +28,10 @@ img{max-width: 40%;}.coleccion{border-left:$borderVerde ;text-align:center;h2{fo
 .luli{border-right: $borderVerde;}}
 
 /*contacto*/
-.contacto{@extend .proyecto;line-height: 3rem;padding-bottom:2%;p{color:$gris;}}
+.contacto{@extend .proyecto;line-height: 3rem;padding-bottom:2%;p{color:$gris; font-size: 2.2rem;}}
 form{padding:0% 28%;p{color:$rosaoscuro; padding-top:1%; text-align: right; font-size:1.3rem;}input{border:$borderRosa;background-color:$fondo;margin-top:3%;padding: 0.5% 0%; font-size:1.4rem;} .nombre{margin-top:0%;}textarea{@extend input;padding-bottom: 5%;}
 .boton{padding:0% 1%;}.enviar{@extend input;border:$borderVerde; margin-right: 2%;}}
-
+.logos{img{padding:4% 2% 2% 2%;max-width: 7%;}}
 /*footer*/
 hr{height:0.8px; border-width:0; width: 100%; background-color:$verdeOscuro; margin-top:5%; padding: 0%;}
 footer{color: $gris; text-align: center;line-height: 2rem; font-size: 1.5rem;padding: 2% 0%;}
