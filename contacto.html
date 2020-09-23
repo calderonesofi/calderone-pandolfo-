@@ -47,6 +47,46 @@
         </div>
         <img src="imagenes/header.png" alt="header" class="imgHeader  d-none d-md-block">
     </header>
+    <div class="container contacto">
+      <div class="row justify-content-center">
+        <div class="col-6">
+      <h1>CONTACTO</h1>
+      <p>Para recibir info sobre Cuento animal no dudes en completar tus datos</p>
+    </div>
+  </div>
+    </div>
+    <div class="container">
+        <form class="row justify-content-center">
+          <input type="text" name="nombre" id="tunombre" value="Nombre" class="col-12"/>
+          <input type="text" name="apellido" id="tuapellido" value="Apellido" class="col-12"/>
+          <input type="email" id="tuemail" required value="E-mail*" class="col-12" />
+          <p> obligatorio</p>
+          <label for="comentarios" class="col-12"></label>
+            <textarea class="col-12">Comentarios</textarea>
+           <br>
+           <button type="button" class="cormorant enviar boton" data-toggle="modal" data-target="#myModal">
+            Enviar
+          </button>
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h3 class="modal-title">Gracias por contactarnos</h3>
+                <button type="btn" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <!-- Modal body -->
+              <div class="modal-body">
+              <h4>Te va a llegar un mail con toda la información</h4>
+              </div>
+             </div>
+             </div>
+             </div>
+             <input type="reset" value="Limpiar" class="cormorant limpiar boton" />
+           </div>
+          </form>
+        </div>
+    <hr>
     <div class="container">
       <div class="row justify-content-center">
     <footer class="col-md-4 ">Antropología para niñes  ·  Illustración  ·  Buenos Aires, Argentina <br> 

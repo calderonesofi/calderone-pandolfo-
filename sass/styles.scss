@@ -27,6 +27,9 @@ img{max-width: 40%;}.coleccion{border-left:$borderVerde ;text-align:center;h2{fo
     h2{font-size: 2.7rem;padding-bottom: 5%;}p{font-size: 2.4rem;line-height: 3.5rem;}}
 .luli{border-right: $borderVerde;}}
 
+/*contacto*/
+.contacto{@extend .proyecto;line-height: 3rem;p{color:$gris;}}
+form{padding:0% 25%;}
 /*footer*/
 hr{height:0.8px; border-width:0; width: 100%; background-color:$verdeOscuro; margin-top:5%; padding: 0%;}
 footer{color: $gris; text-align: center;line-height: 2rem; font-size: 1.5rem;padding: 2% 0%;}
