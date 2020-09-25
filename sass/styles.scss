@@ -24,7 +24,7 @@ img{max-width: 40%;}.coleccion{border-left:$borderVerde ;text-align:center;h2{fo
 /*Notas*/
 .fondoVerde{background-color: $verdeClaro;a{text-decoration: none;}.bordeV{border-bottom: $borderVerde; margin-bottom: 2%;}
 .notasInteres{@extend .proyecto;h1{padding-bottom:0%; font-size: 4rem;}p{color: $fondo; font-size: 2rem; font-weight: 500;}}
-.textImg{color:$verdeOscuro;text-align: center; .medio{font-size:1.8rem; font-style: italic;color: $fondo;} h2{font-size:3.5rem; line-height:3.5rem;}.autor{font-size: 1.8rem; padding-top:4%;}
+.textImg{color:$verdeOscuro;text-align: center; .medio{font-size:1.8rem; font-style: italic;color: $fondo;} h2{font-size:3.5rem; line-height:3.5rem;}.autor{font-size: 1.8rem; padding-top:2%;}
 position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
 .bordeVerde{border-right: $borderVerde;}
 .containerNotas{ .imgTexto {position: relative;width: 50%;.image {display: block;max-width: 100%; padding: 0% 25%;}
@@ -39,7 +39,7 @@ width: 100%;opacity: 0;transition: .5s ease;background-color:$verdeClaro;
 .fondoRosa{@extend .fondoVerde; background-color: $rosaClaro;.overlay{background-color: $rosaClaro !important;};.bordeVer{border-bottom: $borderVerde;@extend .proyecto; padding-bottom:1%;}
 .coleccion{border-bottom: $borderRosa; padding:3%; margin-bottom: 5%; .cole{font-style: italic; color: $rosaoscuro; font-size:2.8rem; margin-bottom: 0%;} h2{font-size:3.8rem; color: $verdeOscuro; line-height: 3.8rem;}}
 .cuentosCon{color:$verdeOscuro; font-size: 2.5rem;}
-.juguetes{padding-top:5%}
+.juguetes{padding-top:5%; .jugue{color:$rosaoscuro;font-style: italic;}.son{font-size:2rem;line-height: 1.8rem; padding-top:2%;}}
 }
     
 /*somos*/
