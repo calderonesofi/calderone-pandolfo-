@@ -67,6 +67,9 @@ footer{color: $gris; text-align: center;line-height: 2rem; font-size: 1.5rem;pad
     img{max-width: 35%;}.coleccion{border-left:none ; border-top: $borderVerde;h2{font-size: 2rem;padding-top:1% ;}p{font-size:1.6;}}}
     .somos{margin-bottom:5%;}
     .conEllas{.luli{border-right: none; border-bottom:$borderRosa; padding-bottom: 5%;}.andy{padding-bottom: 2%; padding-top: 5%;}.texEllas{h2{font-size: 2rem;}p{font-size:1.6rem;}}}
-    footer{font-size:1.3rem;}.somos{line-height: 2rem;}}
+    .coleccion{.cuentosCon{font-size:1.9rem; line-height: 1.4;}}
+    .containerNotas{.cam{margin-top:5%;} .imgTexto{ border-right:none;}.containerTexto{.juCon{padding:20% 0%;}}}
+    footer{font-size:1.3rem;}.somos{line-height: 2rem;}
+   }
 @media screen and (max-width: 360px) {
     .proyecto {padding-top: 9%; h1{font-size: 2.1rem;} p{font-size: 1.6rem;}}}
