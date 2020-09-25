@@ -6,21 +6,23 @@ $verdeClaro:rgb(191, 190, 165);
 $verdeOscuro:rgb(89, 88, 41);
 $gris: rgb(68, 66, 66);
 $rosaChicle:rgb(240, 142, 156);
-$rosaClaro:#c48c95;
-$rosaoscuro:#b7848e;
+$rosaClaro:rgb(221, 197, 204);
+$rosaoscuro:rgb(183, 132, 142);
 $borderRosa:1px solid $rosaoscuro;
 $borderVerde:1px solid $verdeOscuro;
 
 @import "estructura";
 @import "header";
 
+
 /*index*/
 .proyecto{color:$verdeOscuro; text-align: center; padding-bottom: 5%; h1{padding-bottom:2.5%; font-size: 3.5rem;} p{font-size: 2.5rem;}}
 .proyectoVerde{background-color: $verdeClaro; padding: 5%;.soro{ padding-top:1% ;text-align: center; font-size: 1.9rem; border-right:$borderVerde ;}
 img{max-width: 40%;}.coleccion{border-left:$borderVerde ;text-align:center;h2{font-size: 2.3rem; padding-top:5% ;}p{font-size: 1.7rem;padding-left: 22%;padding-right: 22%; line-height: 2rem;}}}
 
+
 /*Notas*/
-.fondoVerde{background-color: $verdeClaro;
+.fondoVerde{background-color: $verdeClaro;a{text-decoration: none;}.bordeV{border-bottom: $borderVerde; margin-bottom: 2%;}
 .notasInteres{@extend .proyecto;h1{padding-bottom:0%; font-size: 4rem;}p{color: $fondo; font-size: 2rem; font-weight: 500;}}
 .textImg{color:$verdeOscuro;text-align: center; .medio{font-size:1.8rem; font-style: italic;color: $fondo;} h2{font-size:3.5rem; line-height:3.5rem;}.autor{font-size: 1.8rem; padding-top:4%;}
 position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
@@ -32,6 +34,13 @@ width: 100%;opacity: 0;transition: .5s ease;background-color:$verdeClaro;
 .imgTexto:hover .overlay {opacity: 1;}
 .containerTexto {@extend .imgTexto;.lay{transition: .5s ease;}.over{opacity: 0;transition: .5s ease;
 .imageTexto {@extend .image;}}}.containerTexto:hover {.over{opacity: 1;}.lay{ opacity: 0;}}}}
+
+/*Productos*/
+.fondoRosa{@extend .fondoVerde; background-color: $rosaClaro;.overlay{background-color: $rosaClaro !important;};.bordeVer{border-bottom: $borderVerde;@extend .proyecto; padding-bottom:1%;}
+.coleccion{border-bottom: $borderRosa; padding:3%; margin-bottom: 5%; .cole{font-style: italic; color: $rosaoscuro; font-size:2.8rem; margin-bottom: 0%;} h2{font-size:3.8rem; color: $verdeOscuro; line-height: 3.8rem;}}
+.cuentosCon{color:$verdeOscuro; font-size: 2.5rem;}
+.juguetes{padding-top:5%}
+}
     
 /*somos*/
 .containerSomos{border-bottom: $borderVerde;
