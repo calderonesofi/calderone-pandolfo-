@@ -1,0 +1,63 @@
+/*variables*/
+
+$font: Cormorant, serif;
+$fondo:rgb(249, 239, 234);
+$verdeClaro:rgb(191, 190, 165);
+$verdeOscuro:rgb(89, 88, 41);
+$gris: rgb(68, 66, 66);
+$rosaChicle:rgb(240, 142, 156);
+$rosaClaro:#c48c95;
+$rosaoscuro:#b7848e;
+$borderRosa:1px solid $rosaoscuro;
+$borderVerde:1px solid $verdeOscuro;
+
+@import "estructura";
+@import "header";
+
+/*index*/
+.proyecto{color:$verdeOscuro; text-align: center; padding-bottom: 5%; h1{padding-bottom:2.5%;} p{font-size: 2.5rem;}}
+.proyectoVerde{background-color: $verdeClaro; padding: 5%;.soro{ padding-top:1% ;text-align: center; font-size: 1.9rem; border-right:$borderVerde ;}
+img{max-width: 40%;}.coleccion{border-left:$borderVerde ;text-align:center;h2{font-size: 2.3rem; padding-top:5% ;}p{font-size: 1.7rem;padding-left: 22%;padding-right: 22%; line-height: 2rem;}}}
+
+/*Notas*/
+.fondoVerde{background-color: $verdeClaro;
+.notasInteres{@extend .proyecto;h1{padding-bottom:0%; font-size: 4rem;}p{color: $fondo; font-size: 2rem; font-weight: 500;}}
+.textImg{color:$verdeOscuro;text-align: center; .medio{font-size:1.8rem; font-style: italic;color: $fondo;} h2{font-size:3.5rem; line-height:3.5rem;}.autor{font-size: 1.8rem; padding-top:4%;}
+position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+.bordeVerde{border-right:$borderVerde;}
+.containerNotas{ .imgTexto {position: relative;width: 50%;.image {display: block;max-width: 100%; padding: 0% 25%;}
+.overlay {position: absolute;top: 0;bottom: 0;left: 0;right: 0;height: 100%;
+width: 100%;opacity: 0;transition: .5s ease;background-color:$verdeClaro;
+}}
+.imgTexto:hover .overlay {opacity: 1;}
+.containerTexto {@extend .imgTexto;.lay{transition: .5s ease;}.over{opacity: 0;transition: .5s ease;
+.imageTexto {@extend .image;}}}.containerTexto:hover {.over{opacity: 1;}.lay{ opacity: 0;}}}}
+    
+/*somos*/
+.containerSomos{border-bottom: $borderVerde;
+.conSomos{padding:0%; margin:0%;.somosIm{max-width:100%;}}
+.somos{@extend .proyecto; padding:0% 6%; align-self: center; line-height: 35px;text-align:justify; h1{font-size: 3rem;}}}
+.conEllas{padding-top: 5%;.imEllas{max-width: 90%;}.texEllas{ text-align: left; color:$verdeOscuro;  
+    h2{font-size: 2.7rem;padding-bottom: 5%;}p{font-size: 2.4rem;line-height: 3.5rem;}}
+.luli{border-right: $borderVerde;}}
+
+/*contacto*/
+.contacto{@extend .proyecto;line-height: 3rem;padding-bottom:2%;p{color:$gris; font-size: 2.2rem;}}
+form{padding:0% 28%;p{color:$rosaoscuro; padding-top:1%; text-align: right; font-size:1.3rem;}input{border:$borderRosa;background-color:$fondo;margin-top:3%;padding: 0.5% 0%; font-size:1.4rem;} .nombre{margin-top:0%;}textarea{@extend input;padding-bottom: 5%;}
+.boton{padding:0% 1%;}.enviar{@extend input;border:$borderVerde; margin-right: 2%;}}
+.logos{img{padding:4% 2% 2% 2%;max-width: 6.6%;}}
+
+/*footer*/
+hr{height:0.8px; border-width:0; width: 100%; background-color:$verdeOscuro; margin-top:5%; padding: 0%;}
+footer{color: $gris; text-align: center;line-height: 2rem; font-size: 1.5rem;padding: 2% 0%;}
+.padF{padding: 5% 0%;}
+
+@media screen and (max-width: 767px) {
+    .proyecto {padding-top: 7%; h1{font-size: 2.4rem;} p{font-size: 1.9rem;}}
+    .proyectoVerde{.row{div{padding:5% 0%;}}.soro{font-size: 1.8rem; border-right:none ; border-bottom: $borderVerde;}
+    img{max-width: 35%;}.coleccion{border-left:none ; border-top: $borderVerde;h2{font-size: 2rem;padding-top:1% ;}p{font-size:1.6;}}}
+    .somos{margin-bottom:5%;}
+    .conEllas{.luli{border-right: none; border-bottom:$borderRosa; padding-bottom: 5%;}.andy{padding-bottom: 2%; padding-top: 5%;}.texEllas{h2{font-size: 2rem;}p{font-size:1.6rem;}}}
+    footer{font-size:1.3rem;}.somos{line-height: 2rem;}}
+@media screen and (max-width: 360px) {
+    .proyecto {padding-top: 9%; h1{font-size: 2.1rem;} p{font-size: 1.6rem;}}}
