@@ -23,23 +23,21 @@ img{max-width: 40%;}.coleccion{border-left:$borderVerde ;text-align:center;h2{fo
 
 /*Notas*/
 .fondoVerde{background-color: $verdeClaro;a{text-decoration: none;}.bordeV{border-bottom: $borderVerde; margin-bottom: 2%;}
-.notasInteres{@extend .proyecto;h1{padding-bottom:0%; font-size: 4rem;}p{color: $fondo; font-size: 2rem; font-weight: 500;}}
-.textImg{color:$verdeOscuro;text-align: center; .medio{font-size:1.8rem; font-style: italic;color: $fondo;} h2{font-size:3.5rem; line-height:3.5rem;}.autor{font-size: 1.9rem; padding-top:2%;}
+.notasInteres{@extend .proyecto;padding-bottom: 2%;h1{padding-bottom:0%;font-size: 4rem;}p{color: $fondo; font-size: 2rem; font-weight: 500;}}
+.textImg{color:$verdeOscuro;text-align: center; .medio{font-size:2.2rem; font-style: italic;color: $fondo; margin-bottom:1%;} h2{font-size:3.5rem; line-height:3.5rem;}.autor{font-size: 1.9rem; padding-top:1%;}
 position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
 .bordeVerde{border-right: $borderVerde;}
-.containerNotas{ .imgTexto {position: relative;width: 50%;.image {display: block;max-width: 100%; padding: 0% 25%;}
+.containerNotas{ .imgTexto {position: relative;width: 50%;.image {display: block;max-width: 100%; padding: 6% 20%;}
 .overlay {position: absolute;top: 0;bottom: 0;left: 0;right: 0;height: 100%;
 width: 100%;opacity: 0;transition: .5s ease;background-color:$verdeClaro;}}
-.imgTexto:hover .overlay {opacity: 1;}
-.containerTexto {@extend .imgTexto;.lay{transition: .5s ease;}.over{opacity: 0;transition: .5s ease;
-.imageTexto {@extend .image;}}}.containerTexto:hover {.over{opacity: 1;}.lay{ opacity: 0;}}}}
+.imgTexto:hover .overlay {opacity: 1;}.containerTexto{text-align: center; color: $verdeOscuro; h2{font-size:4.7rem; font-style: italic;line-height: 4.5rem; font-weight:300;}}}}
 
 /*Productos*/
-.fondoRosa{@extend .fondoVerde; background-color: $rosaClaro;.overlay{background-color: $rosaClaro !important;};.bordeVer{border-bottom: $borderVerde;@extend .proyecto; padding-bottom:1%;}
+.fondoRosa{@extend .fondoVerde; background-color: $rosaClaro;.overlay{background-color: $rosaClaro !important;};.bordeVer{border-bottom: $borderVerde;@extend .proyecto; padding-bottom:0%;}
 .antro{border-bottom: $borderRosa; padding:3%; margin-bottom: 5%; .cole{font-style: italic; color: $rosaoscuro; font-size:2.8rem; margin-bottom: 0%;} h2{font-size:3.5rem; color: $verdeOscuro; line-height: 3.5rem;}
-.cuentosCon{color:$verdeOscuro; font-size: 2.5rem;}}
-.containerNotas{.libros{color: $rosaoscuro;}.autor{line-height: 2rem;}}
-.juguetes{padding-top:5%; .conJugue{text-align: center;.jugue{color:$rosaoscuro;font-style: italic; font-size: 4.2rem;}.son{font-size:2rem;line-height: 1.9rem; padding-top:1%;}}}
+.cuentosCon{color:$verdeOscuro; font-size: 2.5rem; line-height: 3.2rem;}}
+.containerNotas{.libros{color: $rosaoscuro;}.autor{line-height: 2rem;}.bordeRosa{border-right: $borderRosa;}}
+.juguetes{padding-top:5%; .conJugue{text-align: center;.jugue{color:$rosaoscuro;font-style: italic; font-size: 4.2rem; font-weight: 300;}.son{font-size:2rem;line-height: 1.9rem; padding-top:1%; color: $verdeOscuro;}}}
 }
     
 /*somos*/
