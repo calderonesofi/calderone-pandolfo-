@@ -18,7 +18,7 @@ $borderVerde:1px solid $verdeOscuro;
 /*index*/
 .proyecto{color:$verdeOscuro; text-align: center; padding-bottom: 5%; h1{padding-bottom:2.5%; font-size: 3.5rem;} p{font-size: 2.5rem;}}
 .proyectoVerde{background-color: $verdeClaro; padding: 4%; color:$verdeOscuro;.soro{text-align: center; font-size: 2.7rem; font-style: italic; line-height: 3.4rem;}
-.log{max-width: 90%; padding:0% 20%;border-left:$borderVerde;border-right:$borderVerde;}.coleccion{text-align:center;h2{font-size: 3rem;}p{font-size: 2.4rem;padding-left: 22%;padding-right: 22%; line-height: 3rem;}}}
+.log{max-width: 90%;padding:0% 20%;border-left:$borderVerde;border-right:$borderVerde;}.coleccion{text-align:center;h2{font-size: 3rem;}p{font-size: 2.4rem;padding-left: 22%;padding-right: 22%; line-height: 3rem;}}}
 
 
 /*Notas*/
@@ -61,6 +61,10 @@ hr{height:0.8px; border-width:0; width: 100%; background-color:$verdeOscuro; mar
 footer{color: $gris; text-align: center;line-height: 2rem; font-size: 1.5rem;padding: 2% 0%;}
 .padF{padding: 5% 0%;}
 
+@media screen and (width: 1024px) {.proyectoVerde{padding:1%;.log{max-width: 100%; padding:12%;margin:12%;} .coleccion{padding:0%;h2{font-size: 2.8rem;}p{font-size:2.1rem; line-height: 2.3rem;}}.soro{padding:5% 0%; p{font-size:2.3rem; line-height: 3.4rem;}}}}
+@media screen and (width: 768px) {.proyectoVerde{padding:1%;.log{max-width: 100%; padding:12%;margin:12%;} .coleccion{padding:0%;h2{font-size: 2.5rem;}p{font-size:1.9rem; line-height: 2rem;}}.soro{padding:5% 0%; p{font-size:2.1rem; line-height: 2.5rem;}}}
+#ipad{ font-size:2.2rem;line-height: 2.4rem;text-align: left;}.conEllas{.imEllas{padding: 8%;}.texEllas{h2{font-size: 1.9rem;}p{font-size:1.7rem;line-height:2rem;}}}
+.fondoVerde{.textImg{.medio{font-size:1.8rem;} h2{font-size:2.1rem; line-height:2.2rem;}.autor{font-size: 1.4rem;}}#feminismos{h2{font-size:3rem; font-style: italic;line-height: 3.5rem;}}}}
 @media screen and (max-width: 767px) {
     .proyecto {padding-top: 7%;h1{font-size: 2.4rem;}p{font-size: 2rem; line-height: 2.3rem;}}
     .proyectoVerde{padding:2%;.log{max-width: 90%;padding-top:8%;padding-bottom:8%; border-left:none;border-right:none;border-top: $borderVerde;border-bottom: $borderVerde;} .coleccion{padding:5% 0%;h2{font-size: 2.5rem;}p{font-size:2.1rem; line-height: 2.3rem;}}
