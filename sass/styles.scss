@@ -6,7 +6,7 @@ $verdeClaro:rgb(191, 190, 165);
 $verdeOscuro:rgb(89, 88, 41);
 $gris: rgb(68, 66, 66);
 $rosaChicle:rgb(240, 142, 156);
-$rosaClaro:rgb(221, 197, 204);
+$rosaClaro:rgb(234, 214, 220);
 $rosaoscuro:rgb(183, 132, 142);
 $borderRosa:1px solid $rosaoscuro;
 $borderVerde:1px solid $verdeOscuro;
@@ -17,8 +17,8 @@ $borderVerde:1px solid $verdeOscuro;
 
 /*index*/
 .proyecto{color:$verdeOscuro; text-align: center; padding-bottom: 5%; h1{padding-bottom:2.5%; font-size: 3.5rem;} p{font-size: 2.5rem;}}
-.proyectoVerde{background-color: $verdeClaro; padding: 5%; color:$verdeOscuro;.soro{ padding-top:1% ;text-align: center; font-size: 2.8rem; border-right:$borderVerde ;}
-img{max-width: 100%; padding:0% 20%;}.coleccion{border-left:$borderVerde ;text-align:center;h2{font-size: 2.8rem; padding-top:5% ;}p{font-size: 2.4rem;padding-left: 22%;padding-right: 22%; line-height: 3rem;}}}
+.proyectoVerde{background-color: $verdeClaro; padding: 4%; color:$verdeOscuro;.soro{text-align: center; font-size: 2.7rem; font-style: italic; line-height: 3.4rem;}
+.log{max-width: 90%; padding:0% 20%;border-left:$borderVerde;border-right:$borderVerde;}.coleccion{text-align:center;h2{font-size: 3rem;}p{font-size: 2.4rem;padding-left: 22%;padding-right: 22%; line-height: 3rem;}}}
 
 
 /*Notas*/
@@ -54,7 +54,7 @@ form{p{color:$rosaoscuro; padding-top:1%; text-align: right; font-size:1.8rem;}i
 .botones{padding:0%; margin-top:1%;
 .boton{padding:0% 5%;}.enviar{@extend input; border:$borderVerde; margin-right: 2%;color:$gris;}
 .modal{color:$verdeOscuro; h3{font-size:2.3rem;}h4{font-size:1.9rem;}.close{font-size:3.5rem;color:rgb(218, 89, 115);padding-top:2%;}}}}
-.logos{padding-top:4%;img{max-width:80%;}}
+.logos{padding-top:4%;img{max-width:100%;}}
 
 /*footer*/
 hr{height:0.8px; border-width:0; width: 100%; background-color:$verdeOscuro; margin-top:5%; padding: 0%;}
@@ -62,16 +62,21 @@ footer{color: $gris; text-align: center;line-height: 2rem; font-size: 1.5rem;pad
 .padF{padding: 5% 0%;}
 
 @media screen and (max-width: 767px) {
-    .proyecto {padding-top: 7%;h1{font-size: 2.4rem;}p{font-size: 2rem;}}
-    .proyectoVerde{.log{max-width: 95%;padding-bottom: 5%;} .coleccion{padding:5% 0%;;border-left:none ; border-top: $borderVerde;h2{font-size: 2.4rem;padding-top:1%;}p{font-size:2rem;}}}
+    .proyecto {padding-top: 7%;h1{font-size: 2.4rem;}p{font-size: 2rem; line-height: 2.3rem;}}
+    .proyectoVerde{padding:2%;.log{max-width: 90%;padding-top:8%;padding-bottom:8%; border-left:none;border-right:none;border-top: $borderVerde;border-bottom: $borderVerde;} .coleccion{padding:5% 0%;h2{font-size: 2.5rem;}p{font-size:2.1rem; line-height: 2.3rem;}}
+    .soro{padding:5% 0%; p{font-size:2.5rem; line-height: 3rem;}}}
     .somos{margin-bottom:5%;p{line-height: 2.6rem;text-align: left;}}
-    .conEllas{.andy{margin-top: 3%;}.texEllas{h2{font-size: 2.1rem;}p{font-size:1.9rem;line-height:2.3rem;}}}
-    .antro{.cuentosCon{font-size:20rem; line-height: 1.2;}}
-    .containerNotas{.cam{margin-top:5%;} .imgTexto{ border-right:none;}.containerTexto{.juCon{padding:20% 0%;}}}
-    form{margin-top:3.5%;p{font-size:1.6rem;}input{font-size:1.7rem; margin-top:4%;}}
+    .conEllas{.andy{margin-top: 6%;}.textAndy{margin-top:6%;}.texEllas{h2{font-size: 2.1rem;}p{font-size:1.9rem;line-height:2.3rem;}}}
+    #antro{.cole{font-size:2.8rem;}; h2{font-size:3.4rem;line-height:3.2rem;}.cuentosCon{font-size:2.3rem; line-height:2.6rem;margin-top:2%;}}
+    .fondoVerde{.notasCelu{padding-top:3%;.femin{font-style:italic; color:$verdeOscuro;text-align: center;h2{font-size: 3.8rem; font-weight: 300;line-height: 3.8rem;margin-bottom:0%;}}.notitas{border-bottom: $borderVerde;margin:2%;.fotoNota{max-width: 100%;padding:15% 10% 15% 15%;}.textoNotas{padding-left:0%;color:$verdeOscuro;.medioCelu{font-size:2.2rem; font-style: italic;color:$fondo;margin-bottom:1%;text-decoration:underline;}h2{font-size:2.8rem; line-height:2.7rem;}.autorCelu{font-size:1.6rem; padding-top:0%;}}}#simone{border-bottom: none;}}}
+    .productosCelu{border-bottom: $borderRosa;margin:1%;.fotoProd{max-width: 100%;padding:15% 10% 15% 15%;}.textoProdu{padding-left:0%;color:$verdeOscuro; h2{font-size:3rem;}p{font-size:2rem;line-height: 2.4rem;}}} #carrera{border-bottom: none;}
+    form{margin-top:3.5%;p{font-size:1.5rem;}input{font-size:1.6rem; margin-top:4%;}}
     .logos{padding-top:5%;img{max-width:100%;}}
-    footer{font-size:1.4rem;}}
+    footer{font-size:1.4rem; line-height: 1.6rem;}}
 @media screen and (max-width: 360px) {
-    .proyecto {padding-top: 9%; h1{font-size: 2.1rem;} p{font-size:2rem;}}
-    .conEllas{.andy{margin-top: 4%;}.texEllas{h2{font-size: 1.9rem;}p{font-size:1.7rem;line-height:2.1rem;}}}
-    footer{font-size:1.3rem;}}
+    .proyecto {padding-top: 9%; h1{font-size: 2.1rem;} p{font-size:2rem;}}.proyectoVerde{.coleccion{h2{font-size:2.2rem;}p{font-size:1.9rem;}}.soro{p{font-size:2.1rem; line-height: 2.9rem;}}}
+    .conEllas{.andy{margin-top: 8%;}.textAndy{margin-top:8%;}.texEllas{h2{font-size: 1.9rem;}p{font-size:1.7rem;line-height:2rem;}}}
+    #antro{.cole{font-size:2.4rem}; h2{font-size:3rem;line-height:2.9rem;}.cuentosCon{font-size:1.9rem; line-height:2.1rem;margin-top:2%;}}
+    .fondoVerde{.notasCelu{.femin{h2{font-size: 3.3rem;line-height: 3.5rem;}}.notitas{.textoNotas{.medioCelu{font-size:1.9rem;}h2{font-size:2.5rem; line-height:2.3rem;}.autorCelu{font-size:1.5rem;}}}}}
+    footer{font-size:1.2rem;}}
+    @media screen and (max-width: 321px) {.fondoVerde{.notasCelu{.femin{h2{font-size: 3rem; line-height: 3rem;}}.notitas{.textoNotas{.medioCelu{font-size:1.8rem;}h2{font-size:2.2rem; line-height:2.1rem;}.autorCelu{font-size:1.4rem;}}}}}}
